@@ -24,3 +24,7 @@ func Execute() {
 	AddCommands()
 	utils.StopOnErr(illegalLinesCmd.Execute())
 }
+
+func AddCommands() {
+	illegalLinesCmd.AddCommand()
+}
