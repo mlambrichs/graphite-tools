@@ -1,7 +1,6 @@
 package commands
 
 import (
-	"fmt"
 	"github.com/mlambrichs/graphite-tools/core"
 	"github.com/spf13/cobra"
 	"github.com/spf13/hugo/utils"
@@ -17,7 +16,7 @@ var illegalLinesCmd = &cobra.Command{
 
     Complete documentation is available at https://github.com/mlambrichs/graphite-tools`,
 	Run: func(cmd *cobra.Command, args []string) {
-		value := core.IllegalLines()
+		core.IllegalLines()
 	},
 }
 
