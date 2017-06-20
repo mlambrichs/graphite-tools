@@ -1,9 +1,7 @@
 package main
 
-import (
-	"github.com/mlambrichs/graphite-tools/commands"
-)
+import "github.com/mlambrichs/graphite-tools/cmd"
 
 func main() {
-	commands.Execute()
+	cmd.Execute()
 }
